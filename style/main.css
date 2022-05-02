@@ -11,10 +11,17 @@
 
 /*elementos base*/
 body{
-   background: var(--preta);
+   background: rgba(0, 0, 0, 0.596);
    font-family: 'Arial', Times, serif;
    color:white;
+   background-color: #141414;
 }
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+
 
 
 header .container{
@@ -22,6 +29,10 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    max-width: 1300px;
+    
     
 }
 
@@ -30,6 +41,9 @@ header .logo{
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size:40px;
+}
+header .fim-menu{
+    margin-right: 10px;
 }
 
 header nav a{
@@ -40,7 +54,10 @@ header nav a{
 
 
 header nav a:hover{
-    color:#fff;
+    color:rgba(255, 0, 0, 0.527);
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /*filme principal*/
@@ -56,19 +73,28 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
+    border-top: 2px solid red;
 }
 
 
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
+    line-height: 20px;
+    color: rgba(253, 253, 253, 0.671);
 }
 
 
 .filme-principal .titulo{
+    color: rgba(255, 255, 255, 0.808);
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.filme-principal p.descricao:hover, .filme-principal h3.titulo:hover {
+    letter-spacing: 0.65px;
 }
 
 .botao{
@@ -110,12 +136,61 @@ header nav a:hover{
 }
 
 
+
 .carrosel-filmes{
     margin-top:5px;
 }
 
+.carrousel-filmes .owl-theme{
+    scroll-behavior:smooth;
+}
 
+footer{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
 
+footer .container{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size:15px;
+    align-items: stretch;
+    margin: 15px;
+    
+    
+}
+div.inicio-footer{
+    height: 2px;
+    width: 100vw;
+    background-color: red;
+    margin-top: 3px;
+    color: rgba(255, 0, 0, 0);
+}
+footer, footer a {
+    color:#AAA
+}
+
+footer{
+    background-color: #141414;
+    margin-top: 0;
+    border-top: 1px solid black;
+    height: 20vh;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #AAA;
+}
+
+.container-ext{
+    max-width: 1300;
+}
+
+footer .container p{
+    margin-top: 10px;
+}
 
 
 
