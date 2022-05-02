@@ -1,0 +1,15 @@
+
+
+.list-group-item .list-group-item-action a{
+    color: red;
+}
+
+section .quadro-sinopse{
+    height: 20vh;
+    width: 70vw;
+    background-color: white;
+}
+
+section div.imagem-sinopse img{
+    max-width: 100px;
+}

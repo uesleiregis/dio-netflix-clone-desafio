@@ -28,9 +28,20 @@
 
     }
 }
+@media screen and (min-width:774px){
+    section.elenco .esconder{
+        display: none;
+    }
+}
+
 
 @media screen and (min-width:1000px){
     .descricao{
         width: 50%;
     }
+
+    section.elenco .esconder{
+        display: block;
+    }
 }
+

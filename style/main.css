@@ -9,12 +9,14 @@
     box-sizing: border-box;
 }
 
+
 /*elementos base*/
 body{
    background: rgba(0, 0, 0, 0.596);
-   font-family: 'Arial', Times, serif;
+   font-family: 'Trebuchet MS', Arial, sans-serif;
    color:white;
    background-color: #141414;
+   min-width: 370px;
 }
 
 .container{
@@ -22,6 +24,26 @@ body{
     padding: 0;
 }
 
+/* elenco */
+section.elenco{
+    margin: 15px 7px;
+
+    text-align: center;
+}
+section.elenco h4{
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+section.elenco .traco{
+    color: white;
+    width: 12%;
+    background-color: rgba(102, 102, 102, 0.822);
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
 
 
 header .container{
@@ -117,6 +139,15 @@ header nav a:hover{
 
 .botao i{
     margin-right: 8px;
+}
+
+.botao a{
+    text-decoration: none;
+    color: white;
+}
+.botao a:hover{
+    text-decoration: none;
+    color: black;
 }
 
 
