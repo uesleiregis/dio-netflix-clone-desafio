@@ -1,15 +1,47 @@
 
+main section.quadro{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 
-.list-group-item .list-group-item-action a{
-    color: red;
+   
 }
 
-section .quadro-sinopse{
-    height: 20vh;
-    width: 70vw;
-    background-color: white;
+main section.quadro img{
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    max-width: 700px;
+    color:rgba(17, 17, 17, 0.849);
+    align-items: center;
+   
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+}
+main section{
+    margin-left: auto;
+    margin-right: auto;
 }
 
-section div.imagem-sinopse img{
-    max-width: 100px;
+footer{
+    border-top: 1px solid red;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+footer .container a:hover{
+    text-decoration: none;
+    color: rgb(231, 88, 88);
+    letter-spacing: 0.7px;
+    font-weight: bold;
+}
+
+footer .container a{
+    color: rgba(0, 0, 0, 0.52);
 }

@@ -115,8 +115,11 @@ header nav a:hover{
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
-.filme-principal p.descricao:hover, .filme-principal h3.titulo:hover {
+.filme-principal p.descricao:hover{
     letter-spacing: 0.65px;
+}
+.filme-principal h4.titulo:hover{
+    letter-spacing: 0.65px; 
 }
 
 .botao{
@@ -185,13 +188,19 @@ footer .container{
     display: flex;
     flex-flow:row wrap;
     justify-content: space-around;
-    align-items: center;
-    font-size:15px;
     align-items: stretch;
+    font-size:15px;
     margin: 15px;
-    
+    margin-top: 10px;
+   
     
 }
+
+footer .container a, footer .container p{
+    margin-top: 20px;
+   
+}
+
 div.inicio-footer{
     height: 2px;
     width: 100vw;
@@ -199,30 +208,28 @@ div.inicio-footer{
     margin-top: 3px;
     color: rgba(255, 0, 0, 0);
 }
-footer, footer a {
-    color:#AAA
+footer, footer a{
+    color:#AAA;
+    text-decoration: none;
 }
 
 footer{
     background-color: #141414;
     margin-top: 0;
     border-top: 1px solid black;
-    height: 20vh;
+    height: 10vh;
+    border-bottom: 2px solid blue;
 }
 
 footer a:hover {
     text-decoration: none;
     color: #AAA;
+    letter-spacing: 0.7px;
 }
 
 .container-ext{
     max-width: 1300;
 }
-
-footer .container p{
-    margin-top: 10px;
-}
-
 
 
 
